@@ -1,0 +1,108 @@
+<ion-view view-title="极光">
+    <ion-header-bar class="bar-calm" align-title="left">
+        <div class="buttons">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </div>
+        <h1 class="title">极光</h1>
+        <div class="buttons">
+            <button class="button button-icon button-clear ion-android-add"></button>
+        </div>
+    </ion-header-bar>
+
+
+    <ion-content>
+
+        <ion-refresher
+                pulling-text="下拉刷新"
+                refreshing-text="正在刷新..."
+                on-refresh="doRefresh()">
+        </ion-refresher>
+
+        <div class="list">
+
+            <div class="card">
+                <div class="item item-avatar">
+                    <img src="img/test_find.jpg">
+                    <h2>令狐冲</h2>
+                    <p>05月09日19：00</p>
+                </div>
+
+                <div class="item item-body">
+                    <p>
+                        大家来欣赏风景吧。
+                    </p>
+                    <img class="full-image" src="img/test_share_1.jpg">
+                    
+                    <p>
+                        <a href="#" class="subdued">1 喜爱</a>
+                        <a href="#" class="subdued">5 评论</a>
+                    </p>
+                </div>
+
+                <div class="item tabs tabs-secondary tabs-icon-left">
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-thumbsup"></i>
+                        喜爱
+                    </a>
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-chatbox"></i>
+                        评论
+                    </a>
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-share"></i>
+                        分享
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="item item-avatar">
+                    <img src="img/test_find.jpg">
+                    <h2>令狐冲</h2>
+                    <p>05月09日20：00</p>
+                </div>
+
+                <div class="item item-body">
+                    <p>
+                        一座高山，一处低岩，一道新泉，一株古松，一炉红火，一壶绿茶，一位老人，一个少年.
+                    </p>
+                    <img class="full-image" src="img/test_share_2.jpg">
+                    
+                    <p>
+                        <a href="#" class="subdued">1 喜爱</a>
+                        <a href="#" class="subdued">5 评论</a>
+                    </p>
+                </div>
+
+                <div class="item tabs tabs-secondary tabs-icon-left">
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-thumbsup"></i>
+                        喜爱
+                    </a>
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-chatbox"></i>
+                        评论
+                    </a>
+                    <a class="tab-item" href="#">
+                        <i class="icon ion-share"></i>
+                        分享
+                    </a>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </ion-content>
+</ion-view>
+
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+      <ion-tab title="主页" icon-off="ion-ios-ionic-outline" icon-on="ion-ionic" href="#/app/home">
+      </ion-tab>
+      <ion-tab title="分享" icon-off="ion-ios-cloud-outline" icon-on="ion-ios-cloud" href="#/app/share">
+      </ion-tab>
+      <ion-tab title="发现" icon-off="ion-compass" icon-on="ion-android-compass" href="#/app/find">
+      </ion-tab>
+      <ion-tab title="我的" icon-off="ion-ios-person-outline" icon-on="ion-ios-person" href="#/app/my">    
+      </ion-tab>
+  </ion-tabs>

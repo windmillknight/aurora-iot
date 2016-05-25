@@ -1,0 +1,92 @@
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-side-menu-content>
+
+ <!--    <ion-nav-bar class="bar-calm">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar> -->
+
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-content>
+       <div class="light-bg">
+              <button class="button button-clear button-light ion-gear-a"></button>
+              <div class="padding text-center">
+                    <div class="avatar">
+                        <img src="img/test_find.jpg" alt="" class="img-responsive"/>
+                    </div>
+                    <h4>令狐冲</h4>
+                    <p>独孤九剑、易筋经、吸星大法</p>
+              </div>
+        </div>
+
+      <ion-list class="sidemenu-list">
+        <!-- <ion-item menu-close href="#/app/login" class="item item-icon-left light">
+          <i class="icon ion-log-in"></i>
+          登录
+        </ion-item>
+        <ion-item menu-close href="#/app/signup" class="item item-icon-left light">
+          <i class="icon ion-cube"></i>
+          注册
+        </ion-item> -->
+        <ion-item menu-close href="#/app/home" class="item item-icon-left light">
+          <i class="icon ion-home"></i>
+                    主页
+        </ion-item>
+        <!-- <a href="#/app/home" class="item item-icon-left calm" menu-close>
+                    <i class="icon ion-home"></i>
+                    主页
+        </a> -->
+        <ion-item menu-close href="#/app/share" class="item item-icon-left light">
+          <i class="icon ion-ios-cloud"></i>
+          分享
+        </ion-item>
+        <ion-item menu-close href="#/app/find" class="item item-icon-left light">
+          <i class="icon ion-search"></i>
+          发现
+        </ion-item>
+        <ion-item menu-close href="#/app/my" class="item item-icon-left light">
+          <i class="icon ion-person"></i>
+          我的
+        </ion-item>
+        <ion-item menu-close href="#/app/pattern" class="item item-icon-left light">
+          <i class="icon ion-ionic"></i>
+          模式
+        </ion-item>
+        <ion-item menu-close href="#/app/device" class="item item-icon-left light">
+          <i class="icon ion-iphone"></i>
+          设备
+        </ion-item>
+
+        <!-- <ion-item menu-close href="#/app/sample" class="item item-icon-left light">
+          <i class="icon ion-home"></i>
+          Sample
+        </ion-item>
+        <ion-item menu-close href="#/app/testdatas" class="item item-icon-left light">
+          <i class="icon ion-home"></i>
+          测试数据
+        </ion-item> -->
+       <!--  <ion-item menu-close ng-click="logout()" class="item item-icon-left light">
+          <i class="icon ion-log-out"></i>
+          登出
+        </ion-item> -->
+
+        <ion-item menu-close href="#" class="item item-icon-left light">
+          <i class="icon ion-log-out"></i>
+          登出
+        </ion-item>
+
+      </ion-list>
+    </ion-content>
+    <div class="bar bar-footer bar-light">
+      <button class="button button-icon icon ion-gear-a">设置</button>
+      <button class="button button-icon icon ion-ios-moon">夜间</button>
+    </div>
+  </ion-side-menu>
+</ion-side-menus>
+

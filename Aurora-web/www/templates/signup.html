@@ -1,0 +1,40 @@
+<ion-view view-title="注册" class="loginBg" hide-nav-bar="true" >
+  <ion-content class="padding">
+
+  <div class="row responsive-sm padding remvoeBP">
+	  <div class="col">
+		   <div class="app-logo"><img src="img/ionic.png"></div>
+			
+			<div class="list list-inset removePM">
+			  <label class="item item-input"><input type="text" placeholder="姓名"> </label>
+			  <label class="item item-input"><input type="text" placeholder="邮箱"> </label>
+			  <label class="item item-input"><input type="text" placeholder="手机号码"> </label>
+			  <label class="item item-input"><input type="password" placeholder="密码"> </label>
+			</div>
+
+			<div class="loginButton"><button class="button ion-person button-block button-balanced">注册</button>  </div>
+	  </div>
+  </div>
+
+	<div class="row  padding removePM">
+	  <div class="col"> <a class=" button-positive button button-block" ng-click="facebookSignIn()"><i class="icon ion-social-facebook"></i></a> </div>
+	  <div class="col"> <a class=" button-assertive button button-block" ng-click="googleSignIn()"><i class="icon ion-social-googleplus"></i></a> </div>
+	  <div class="col"> <a class="button-calm button button-block" ng-click="twitterSignIn()"><i class="icon ion-social-twitter"></i></a> </div>
+	</div>
+
+  </ion-content>
+</ion-view>
+
+<!-- <div class="tabs-striped  tabs-background-positive tabs-color-light">
+    <div class="tabs">
+      <a class="tab-item " href="#/app/login"><i class="icon ion-unlocked"></i> 登录</a>
+      <a class="tab-item active" href="#/app/signup"> <i class="icon ion-person"></i>注册</a>
+    </div>
+  </div> -->
+
+  <ion-tabs class="tabs-icon-top tabs-color-active-positive tabs-background-stable">
+      <ion-tab title="登录" icon="ion-unlocked" href="#/app/login">
+      </ion-tab>
+      <ion-tab title="注册" icon="ion-person" href="#/app/signup">
+      </ion-tab>
+  </ion-tabs>

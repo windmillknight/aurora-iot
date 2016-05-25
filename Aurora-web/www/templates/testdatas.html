@@ -1,0 +1,18 @@
+<ion-view view-title="Testdatas">
+  <ion-header-bar class="bar-calm" align-title="left">
+        <div class="buttons">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </div>
+        <h1 class="title">Testdatas</h1>
+        <div class="buttons">
+            <button class="button button-icon button-clear ion-android-more-vertical"></button>
+        </div>
+  </ion-header-bar>	
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="testdata in testdatas" href="#/app/testdatas/{{testdata.id}}">
+        {{testdata.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
