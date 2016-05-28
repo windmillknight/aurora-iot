@@ -1,0 +1,11 @@
+// place your data.json replace the following data. 
+{
+	"swordsman": [
+		{ "name":"linghuchong" , "uniqueSkill":"dugujiujian" },
+		{ "name":"zhangwuji" , "uniqueSkill":"qiankundanuoyi" },
+		{ "name":"lixunhuan" , "uniqueSkill":"xiaolifeidao" },
+		{ "name":"duanyu" , "uniqueSkill":"liumaishenjian" },
+		{ "name":"huawuque" , "uniqueSkill":"yihuajieyu" }
+	]
+}
+
