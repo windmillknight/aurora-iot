@@ -1,7 +1,7 @@
 .loginBg{
 
 
-background-image:url(../img/login_bg_test6.jpg);
+background-image:url(../img/login_bg_test9.jpg);
 background-size:100% 100%;
 background-repeat:no-repeat;
 /*background: rgba(73,155,234,1);*/
@@ -21,60 +21,21 @@ background-repeat:no-repeat;
 
 }
 
-
-
-
 .homeBg{
-
-
-background-image:url(../img/login_bg_test5.jpg);
-
+background-image:url(../img/home.jpg);
 background-size:100% 100%;
 background-repeat:no-repeat;
-/*background: rgba(73,155,234,1);*/
-/*background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 45%, rgba(73,155,234,1) 100%);*/
-/*background: linear-gradient(to right, rgba(11,193,243,0.5), rgba(11,193,243,1)); */
-
- /*background: linear-gradient(to bottom right, rgba(11,193,243,0.5), rgba(11,193,243,1));*/
- /*background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
 }
 
-/*.colorPickerStyle{
-	max-width:100px; 
-	margin:auto; 
-	background-repeat:no-repeat;
-	background-position:center;
-}*/
-
+.shoesBg{
+background-image:url(../img/right_shoes.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+}
 
 
 .app-logo{ max-width:100px; margin:auto; background-repeat:no-repeat;background-position:center;}
 .remvoeBP{ padding-bottom:0px;}
 .removePM{ margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px; }
 
-/*div {
-float: left;
-height: 150px;
-margin: 10px;
-width: 150px;
-}
-
-p {
-color: #fff;
-font: bold 1.25em/1 sans-serif;  
-padding-top: 1.65em;  
-text-align: center;
-}*/
-
-/*.shapesize{
-float: left;
-height: 100px;
-margin: 30px;
-width: 100px;
-border-radius: 50px;
-color: #fff;
-font: bold 1.25em/1 sans-serif;  
-padding-top: 2.5em;  
-text-align: center;
-}
 

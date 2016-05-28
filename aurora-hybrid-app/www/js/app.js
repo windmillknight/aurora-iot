@@ -51,6 +51,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   }
 })
 
+.state('app.shoes',{
+  url:'/shoes',
+  views:{
+    'menuContent':{
+      templateUrl:'templates/shoes.html'
+    }
+  }
+})
+
   .state('app.share',{
     url:'/share',
     views:{
