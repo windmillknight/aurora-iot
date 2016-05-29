@@ -34,8 +34,13 @@ background-repeat:no-repeat;
 }
 
 
-.app-logo{ max-width:100px; margin:auto; background-repeat:no-repeat;background-position:center;}
+.app-logo{ 
+	max-width:100px; 
+	margin:auto; 
+	background-repeat:no-repeat;
+	background-position:center;
+}
 .remvoeBP{ padding-bottom:0px;}
-.removePM{ margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px; }
+.removePM{ margin-top:80px; margin-bottom:0px; padding-top:0px; padding-bottom:0px; }
 
 
